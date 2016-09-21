@@ -1,12 +1,12 @@
 # DC/OS Stylelint Configuration
 
-This configuration extends (stylelint-config-standard)[https://github.com/stylelint/stylelint-config-standard].
+This configuration extends [stylelint-config-standard](https://github.com/stylelint/stylelint-config-standard).
 
 ## Example
 ```LESS
 & when (@status-bar-enabled) {
 
-  // A single newline is required before nested properties.
+  // A single newline is required before beginning a nested declaration.
   @keyframes candy-stripe {
 
     0% {
@@ -34,7 +34,7 @@ This configuration extends (stylelint-config-standard)[https://github.com/stylel
 
     .bar {
       background-color: currentColor;
-      // Multiple property values must be separated by newlines.
+      // Multiple values in a property must be separated by newlines.
       box-shadow:
         1px 0 0 0 @body-background-color,
         0 5px 20px fade(@body-background-color, 10%);
@@ -67,7 +67,8 @@ This configuration extends (stylelint-config-standard)[https://github.com/stylel
     }
   }
 
-  // Duplicate declarations are prohibited; this would trigger a warning.
+  // Duplicate declarations of equal specificity are prohibited; this would
+  // trigger a warning.
   .status-bar {
     // Some extra styles...
   }
