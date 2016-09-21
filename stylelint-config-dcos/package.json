@@ -1,7 +1,7 @@
 {
-  "name": "dcos-ui-common",
+  "name": "stylelint-config-dcos",
   "version": "0.0.1",
-  "description": "Common UI resources for DC/OS",
+  "description": "DC/OS Stylelint Rules",
   "author": {
     "name": "Mesosphere Frontend Team",
     "email": "web-public@mesosphere.com",
@@ -11,5 +11,12 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/dcos/dcos-ui-common"
+  },
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "devDependencies": {
+    "stylelint-config-standard": "13.0.0"
   }
 }

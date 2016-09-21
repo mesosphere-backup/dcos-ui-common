@@ -1,6 +1,5 @@
-{
+module.exports = {
   "extends": "stylelint-config-standard",
-
   "rules": {
     "at-rule-empty-line-before": ["always", {
       except: ["blockless-after-same-name-blockless"],
@@ -50,4 +49,4 @@
     "value-keyword-case": "lower",
     "value-list-comma-space-after": "always-single-line"
   }
-}
+};

@@ -1,4 +1,4 @@
-{
+module.exports = {
   "ecmaFeatures": {
     "jsx": true,
     "modules": true,
@@ -164,4 +164,4 @@
     // "react/prop-types": "error", This causes errors with many
     "react/react-in-jsx-scope": "error"
   }
-}
+};

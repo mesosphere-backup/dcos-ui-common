@@ -1,0 +1,25 @@
+{
+  "name": "eslint-config-dcos",
+  "version": "0.0.1",
+  "description": "DC/OS eslint configuration",
+  "author": {
+    "name": "Mesosphere Frontend Team",
+    "email": "web-public@mesosphere.com",
+    "url": "http://www.mesosphere.com"
+  },
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dcos/dcos-ui-common"
+  },
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "devDependencies": {
+    "eslint-config-airbnb": "10.0.1",
+    "eslint-plugin-import": "1.13.0",
+    "eslint-plugin-jsx-a11y": "2.1.0",
+    "eslint-plugin-react": "6.1.1"
+  }
+}
