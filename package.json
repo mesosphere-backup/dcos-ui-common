@@ -1,0 +1,15 @@
+{
+  "name": "dcos-ui-common",
+  "version": "0.0.1",
+  "description": "Common UI resources for DC/OS",
+  "author": {
+    "name": "Mesosphere Frontend Team",
+    "email": "web-public@mesosphere.com",
+    "url": "http://www.mesosphere.com"
+  },
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dcos/dcos-ui-common"
+  }
+}
