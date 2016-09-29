@@ -18,7 +18,7 @@ This configuration extends [stylelint-config-standard](https://github.com/stylel
       - [Pseudo-classes and pseudo-elements](#pseudo-classes-and-pseudo-elements)
       - [Nested selectors](#nested-selectors)
     - [Variables](#variables)
-    - [Mixins](#ixins)
+    - [Mixins](#mixins)
     - [Extend directive](#extend-directive)
 
 ## Terminology
