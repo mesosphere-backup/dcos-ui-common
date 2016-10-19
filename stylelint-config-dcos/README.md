@@ -114,11 +114,11 @@ Stylesheets should follow the current organization where there is a `styles.less
 ```less
 /*
  * This is a first tier comment.
- * Consider it analagous to h1 tags in HTML.
+ * Consider it analogous to h1 tags in HTML.
  */
 ```
 ```less
-/* This is a seond tier comment, analogous to h2 tags. */
+/* This is a second tier comment, analogous to h2 tags. */
 ```
 ```less
 // This is a third tier comment, analogous to h3 tags.
@@ -126,7 +126,7 @@ Stylesheets should follow the current organization where there is a `styles.less
 
 ### Writing Useful Class Selectors
 
-Aim for re-usable, generalized components whose. However, please avoid overly atomic classes. As an example, instead of creating a single `.bordered` classname to add borders on all kinds of components, it is preferrable to define individual components whose names reflect their purpose rather than their appearance. This makes it much easier to maintin and use components with great consistency throughout the application.
+Aim for re-usable, generalized components whose. However, please avoid overly atomic classes. As an example, instead of creating a single `.bordered` classname to add borders on all kinds of components, it is preferrable to define individual components whose names reflect their purpose rather than their appearance. This makes it much easier to maintain and use components with great consistency throughout the application.
 
 Although we don't currently use BEM style syntax, its methodologies are desirable when naming classes. BEM stands for block, element, modifier, and it is the order we'd like our class selectors to follow. Blocks (like `table` or `panel`) contain elements (like `cell`), which will usually have modifiers (like `selected` or `warning`).
 
@@ -182,7 +182,7 @@ List all standard property declarations in alphabetical order immediately after 
 
 #### Pseudo-classes and pseudo-elements
 
-Psedo-classes sould go immiediately after the property declarations, preceded by a newline. Pseudo-elements should go immediately after pseudo-classes if they exist, also preceded by a newline.
+Pseudo-classes should go immediately after the property declarations, preceded by a newline. Pseudo-elements should go immediately after pseudo-classes if they exist, also preceded by a newline.
 ```less
 .button {
   background: @neutral;
@@ -271,7 +271,7 @@ Prefer to re-use existing color variables, modifying them with functions if nece
 #### Color Functions
 
 1. Prefer to use our custom `color-lighten` function over the built-in `lighten` and `darken` functions.
-2. Use the built-in `fade` function to get an rgba value out of hex colors. Eg. `fade(@neutral, 90%)`
+2. Use the built-in `fade` function to get a rgba value out of hex colors. Eg. `fade(@neutral, 90%)`
 
 ### Vendor Prefixes
 
