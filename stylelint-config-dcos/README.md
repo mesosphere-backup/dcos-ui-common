@@ -105,24 +105,12 @@ Stylesheets should follow the current organization where there is a `styles.less
 ```
 
 ### Comments
+* Let's implement the [KSS](https://github.com/kneath/kss) methodology to create automatic code documentation.
 * Prefer comments on their own line. Avoid end-of-line comments.
 * Write detailed comments for code that isn't self-documenting:
   - Uses of z-index
   - Compatibility or browser-specific hacks
   - Seemingly-superfluous specificity
-* There are three tiers of comments:
-```less
-/*
- * This is a first tier comment.
- * Consider it analogous to h1 tags in HTML.
- */
-```
-```less
-/* This is a second tier comment, analogous to h2 tags. */
-```
-```less
-// This is a third tier comment, analogous to h3 tags.
-```
 
 ### Writing Useful Class Selectors
 
