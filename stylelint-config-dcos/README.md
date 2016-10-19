@@ -244,7 +244,7 @@ When selectors become this long, you're likely writing CSS that is:
 ### Variables
 
 1. Prefer dash-cased variable names (e.g. `@my-variable`) over camelCased or snake_cased variable names.
-2. Variables should be defined in `variables.less` directly next to the component's `styles.less` and the value of the variable should fall at the 80th character. This is to ensure variable values will always be aligned in a single column.
+2. Variables should be defined in `variables.less` directly next to the component's `styles.less`.
 
 **Bad**
 ```less
