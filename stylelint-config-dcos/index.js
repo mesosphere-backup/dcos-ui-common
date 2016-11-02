@@ -17,7 +17,7 @@ module.exports = {
     "declaration-block-semicolon-newline-before": "never-multi-line",
     "declaration-colon-space-after": "always-single-line",
     "declaration-empty-line-before": "never",
-    "font-family-name-quotes": "always-where-recommended",
+    "font-family-name-quotes": "always-unless-keyword",
     "font-weight-notation": "numeric",
     "function-blacklist": ["hsla"],
     "function-comma-newline-before": "never-multi-line",
@@ -46,7 +46,12 @@ module.exports = {
     "selector-pseudo-element-colon-notation": "single",
     "string-quotes": "single",
     "stylelint-disable-reason": "always-before",
-    "value-keyword-case": "lower",
+    "value-keyword-case": [
+        "lower",
+        {
+          "ignoreKeywords": ["BlinkMacSystemFont"]
+        }
+      ],
     "value-list-comma-space-after": "always-single-line"
   }
 };
