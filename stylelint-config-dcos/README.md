@@ -233,15 +233,17 @@ When selectors become this long, you're likely writing CSS that is:
 
 1. Prefer dash-cased variable names (e.g. `@my-variable`) over camelCased or snake_cased variable names.
 2. Variables should be defined in `variables.less` directly next to the component's `styles.less`.
+3. A variable's name should be immediately followed by a colon, a single whitespace character, and the value.
 
 **Bad**
 ```less
-@myVariable: 30px;
+@myVariable :
+  30px;
 ```
 
 **Good**
 ```less
-@my-variable:                                                                   30px;
+@my-variable: 30px;
 ```
 
 ### Mixins
